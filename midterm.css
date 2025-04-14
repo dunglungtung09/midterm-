@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif;
+  background-color:#FAF8F1;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #3cb4e7;
+}
+
+.icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 50px;
+}
+
+.profile-pic {
+  width: 420px;
+  height: 420px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info-section {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 52px;
+  color: #3cb4e7;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  font-size: 16px;
+  color: #333;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px 50px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Social icons in one row, centered */
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* khoảng cách giữa chữ và icon */
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
+
+
+
+

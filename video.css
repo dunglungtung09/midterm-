@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #FAF8F1;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding: 20px 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #3cb4e7;
+}
+
+.icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.left-column h1 {
+  color: #3cb4e7;
+  font-size: 70px;
+  line-height: 2.0;
+  margin-bottom: 20px;
+}
+
+.left-column p {
+  font-size: 20px;
+  color: #333;
+  max-width: 450px;
+}
+
+.right-column {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img-small {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.img-large {
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.video-full-section {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.contact-button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  font-size: 18px;
+  background-color: #40a9ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #3cb4e7;
+}
+footer {
+  margin-top: 50px;
+  padding: 20px 50px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Social icons in one row, centered */
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* khoảng cách giữa chữ và icon */
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
+
+.running-banner {
+  margin-top: 30px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #3cb4e7;
+}
